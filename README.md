@@ -2,10 +2,10 @@
 This shows most of the features available within UFT API tests for WPF applications
 
 The flow: 
-1 Get Flights Array
-2 Create Order Loop based on parameters
-3 Get All Newly added Flight Orders Array
-4 Delete all new Orders Created. 
+1. Get Flights Array
+2. Create Order Loop based on parameters
+3. Get All Newly added Flight Orders Array
+4. Delete all new Orders Created. 
 
 Includes the following standard activities:
 
@@ -18,5 +18,8 @@ Includes the following standard activities:
 *	Concatenate String
 *	Custom Report Message
 *	Close DB Connection
+* Action Libraries
+* Function Libraries
+* Recovery Scenarios
 
 Many thanks to Andrew Lozoya for his initial work on the script
