@@ -1,5 +1,5 @@
 # UFTComprensiveFlightGUI
-This shows most of the features available within UFT API tests for WPF applications
+This shows most of the features available within UFT GUI tests for WPF applications
 
 The flow: 
 1. Get Flights Array
