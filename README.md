@@ -1,4 +1,4 @@
-# UFTComprensiveFlightGUI
+# UFT Comprehensive FlightGUI
 This shows most of the features available within UFT GUI tests for WPF applications
 
 The flow: 
