@@ -31,13 +31,21 @@ fBtn("enabled").value = "True"
 '----------------------------------------------------------------------------------------------------
 'Script
 '----------------------------------------------------------------------------------------------------
-For x = 1 = 1 To 3 Step 1 'loop checking if exists
-	If (not WpfWindow(fGUI).Exist) Then
-		wait 1
-	Else 
-		x=1000
+Const maxTries = 10
+For x = 1 To maxTries Step 1 'loop checking if exists
+	If ( WpfWindow(fGUI).Exist(1) ) Then 
+		Exit for
 	End If
 Next
+
+If x = maxTries + 1 Then
+	reporter.ReportEvent micFail,"App started", "Application did not start"
+	Exittest
+else
+	reporter.ReportEvent micInfo,"App started", "Application started in " & x & " seconds"
+	
+End If
+
 
 WpfWindow(fGUI).WpfEdit(fUser).Set "John"
 WpfWindow(fGUI).WpfEdit(fPwd).SetSecure "5a9701cbec7e"
