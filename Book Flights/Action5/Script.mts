@@ -12,22 +12,22 @@ DbTable("DbTable_Checkpoint").Check CheckPoint("DbTable_Checkpoint")
 '-----------------------------------------------------------------------------------------------------------------------
 
 '-----------------------------------------------------------------------------------------------------------------------
-WpfWindow("HPE MyFlight Sample Applicatio").WpfTabStrip("WpfTabStrip").Select "SEARCH ORDER"
-WpfWindow("HPE MyFlight Sample Applicatio").WpfRadioButton("byNumberRadio").Set
-WpfWindow("HPE MyFlight Sample Applicatio").WpfEdit("byNumberWatermark").Set Parameter("Order_Number") @@ hightlight id_;_1926714864_;_script infofile_;_ZIP::ssf6.xml_;_
-WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("SEARCH").Click
+WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfTabStrip("WpfTabStrip").Select "SEARCH ORDER"
+WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfRadioButton("byNumberRadio").Set
+WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfEdit("byNumberWatermark").Set Parameter("Order_Number") @@ hightlight id_;_1926714864_;_script infofile_;_ZIP::ssf6.xml_;_
+WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfButton("SEARCH").Click
 
 '-----------------------------------------------------------------------------------------------------------------------
 
 '-----------------------------------------------------------------------------------------------------------------------
 'Using the DB output parameters from action 5 to perform GUI validation
 
-WpfWindow("HPE MyFlight Sample Applicatio").Check CheckPoint("FlightNum") @@ hightlight id_;_1445576_;_script infofile_;_ZIP::ssf6.xml_;_
-WpfWindow("HPE MyFlight Sample Applicatio").WpfComboBox("numOfTicketsCombo").Check CheckPoint("NumOfTicketsCombo")
-WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order $ Price").Check CheckPoint("Order $ Price") @@ hightlight id_;_1997777216_;_script infofile_;_ZIP::ssf11.xml_;_
+WpfWindow("Micro Focus MyFlight Sample Applicatio").Check CheckPoint("FlightNum") @@ hightlight id_;_1445576_;_script infofile_;_ZIP::ssf6.xml_;_
+WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfComboBox("numOfTicketsCombo").Check CheckPoint("NumOfTicketsCombo")
+WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfObject("Order $ Price").Check CheckPoint("Order $ Price") @@ hightlight id_;_1997777216_;_script infofile_;_ZIP::ssf11.xml_;_
 
 'Application object highlight
-WpfWindow("HPE MyFlight Sample Applicatio").WpfObject("Order $ Price").highlight
+WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfObject("Order $ Price").highlight
 
 foo = 1 ' to make it easy to set a breakpoint so that variable values can be examined
 
