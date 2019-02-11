@@ -25,8 +25,7 @@ WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfObject("Order $ Price").O
 ' the database connection string must be parameterized to match who is running this test so
 whoIsLoggedIn = Environment.Value("UserName") ' get the name
 DataTable.Value("userLoggedIn", dtLocalSheet) = whoIsLoggedIn ' store it into the data table
-' now, in this connection string, it can concatentate the string
-DbTable("DbTable").Output CheckPoint("DbTable")
+DbTable("ODBC_Object").Output CheckPoint("DbCheckpoint")
 
 '-----------------------------------------------------------------------------------------------------------------------
 
