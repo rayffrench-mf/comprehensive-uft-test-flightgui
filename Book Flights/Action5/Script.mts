@@ -1,5 +1,5 @@
 ﻿'DB SQLite3 Checkpoint Wizard 
-'CheckPoint If DB matches passed parameter "OrderNumber" & Static "CustomerName" exists
+'CheckPoint If DB matches passed parameter "OrderNumber" & Static "CustomerName" exists 
 msgbox Parameter.Item("Order_Number") ' this halts execution until you dismiss the msgbox
 print Parameter.Item("Order_Number")  ' this concatenates it to the end of the output window
 
