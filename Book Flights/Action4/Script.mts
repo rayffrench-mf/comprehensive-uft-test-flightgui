@@ -2,7 +2,7 @@
 WpfWindow("Micro Focus MyFlight Sample Applicatio").WpfButton("ORDER").Click
 
 '-----------------------------------------------------------------------------------------------------------------------
-
+ 
 '-----------------------------------------------------------------------------------------------------------------------
 'Start monitor transaction time
 services.StartTransaction "Process Order"
