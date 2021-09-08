@@ -1,6 +1,6 @@
 ﻿'DB SQLite3 Checkpoint Wizard 
 'CheckPoint If DB matches passed parameter "OrderNumber" & Static "CustomerName" exists 
-msgbox Parameter.Item("Order_Number") ' this halts execution until you dismiss the msgbox
+'msgbox Parameter.Item("Order_Number") ' this halts execution until you dismiss the msgbox
 print Parameter.Item("Order_Number")  ' this concatenates it to the end of the output window
 
 ' the database connection string must be parameterized to match who is running this test so
