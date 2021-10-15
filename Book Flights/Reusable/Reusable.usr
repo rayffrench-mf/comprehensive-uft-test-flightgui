@@ -32,8 +32,8 @@ Default Profile=default.usp
 Lang=none
 
 [TulipInfo]
-ProductName=Micro Focus Unified Functional Testing
-Version=15.0.2
+ProductName=Micro Focus UFT One
+Version=2021
 
 [TulipAddins]
 AI=
@@ -42,6 +42,7 @@ File Content=
 Insight=
 Windows Applications=
 TEA=
+Web=
 WPF=
 XML=
 
