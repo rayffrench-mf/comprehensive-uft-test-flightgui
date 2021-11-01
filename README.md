@@ -3,7 +3,17 @@ This shows most of the features available within UFT GUI tests for WPF applicati
 
 **PLEASE READ THIS README. if you don't the test replay will almost certainly fail!**
 
-## The flow: 
+## Sucessfully cloning this repository
+This will be a 4 step process:
+1. Get the repository URL as you normally would
+2. Clone the repository as you normally would
+3. Open UFT, then go to UFT Options->GUI_testing->Folders option and add the path: .. (e.g. two dots, no spaces)
+4. Open the BookFlights test from the repository
+
+If you do not do steps 3 and 4 in that order, when you open the BookFlights test, you will get an error of "Error	1	Action is missing or not reusable: Reusable Action [ReusableTest]	Reusable Action [ReusableTest]	ReusableTest	MainTest"
+
+
+## The test flow: 
 1. Get Flights Array
 2. Create Order Loop based on parameters
 3. Get All Newly added Flight Orders Array
