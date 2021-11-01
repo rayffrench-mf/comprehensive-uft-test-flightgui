@@ -16,9 +16,9 @@ Action0=Action0\Script.mts
 3 Flight Finder=Action2\Script.mts
 4 Select Flight=Action3\Script.mts
 5 Flight Confirmation=Action4\Script.mts
-6 Search Order=Action5\Script.mts
 1 Open Application [Reusable]=Action1\Script.mts
 7 Close Application [Reusable]=Action2\Script.mts
+6 Search Order=Action5\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -48,7 +48,6 @@ File Content=
 Insight=
 Windows Applications=
 TEA=
-Web=
 WPF=
 XML=
 
